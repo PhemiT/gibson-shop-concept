@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+
+    /* FONT */
+    --font-family: 'Big Shoulders Display', cursive;
+    --font-type2:  'Roboto', sans-serif;
+
+    /* COLORS */
+    --color-bg: #131313;
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    /* RESPONSIVE SIZING */
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    /* TRANSITION */
+    --transition: all 400ms ease;
+}
