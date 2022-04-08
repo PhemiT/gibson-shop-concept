@@ -57,3 +57,10 @@
     align-items: center;
 }
 
+@media screen and (max-width: 800px) {
+    .gibson__header-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
