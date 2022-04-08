@@ -1,0 +1,20 @@
+.gibson__topbar {
+    background: #1b1d22;
+    margin-bottom: 20px;
+}
+
+.gibson__topbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gibson__topbar-nav p {
+    font-family: var(--font-type3);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 3px 0;
+}
+

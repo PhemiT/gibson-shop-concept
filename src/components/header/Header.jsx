@@ -16,7 +16,9 @@ const Header = () => {
           </p>
         </div>
         <div className='gibson__header-cta'>
-          <h1>Shop Now</h1>
+          <div className='gibson__header-cta-circle'>
+            <p>Shop Now</p>
+          </div>
         </div>
       </div>
       <div className='divider__line'/>

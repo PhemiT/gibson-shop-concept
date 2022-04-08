@@ -41,3 +41,19 @@
     align-items: center;
 }
 
+.gibson__header-cta > p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.gibson__header-cta-circle {
+    width: 120px;
+    height: 120px;
+    border: 1px solid var(--color-white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
