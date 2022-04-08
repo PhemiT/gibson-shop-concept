@@ -10,7 +10,7 @@ const App = () => {
       <Navbar />
       <Header />
       <div className='container gibson__cover'>
-        <img src={coverImg2} alt='cover' />
+        <img className='fade-in-br' src={coverImg2} alt='cover' />
       </div>
       <Footer />
     </div>

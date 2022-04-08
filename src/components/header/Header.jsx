@@ -4,8 +4,8 @@ import './header.css'
 const Header = () => {
   return (
     <div className='gibson__header container'>
-      <div className='divider__line'/>
-      <div className='gibson__header-content'>
+      <div className='divider__line fade-in-left'/>
+      <div className='gibson__header-content fade-in-right'>
         <div className="gibson__header-heading">
           <p>Introducing</p>
           <h1>The Modern Collection</h1>
@@ -16,12 +16,12 @@ const Header = () => {
           </p>
         </div>
         <div className='gibson__header-cta'>
-          <div className='gibson__header-cta-circle'>
+          <div className='gibson__header-cta-circle pulsate-bck'>
             <p>Shop Now</p>
           </div>
         </div>
       </div>
-      <div className='divider__line'/>
+      <div className='divider__line two fade-in-left'/>
     </div>
   )
 }
