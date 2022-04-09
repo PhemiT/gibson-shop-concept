@@ -7,7 +7,7 @@
 
 .gibson__header-content {
     display: grid;
-    grid-template-columns: 50% 30% 20%;
+    grid-template-columns: 40% 40% 20%;
     gap: 1rem;
 }
 
@@ -25,10 +25,10 @@
 }
 
 .gibson__header-text p {
-    font-family: var(--font-type2);
+    font-family: var(--font-type3);
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@
 }
 
 .gibson__header-cta > p {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 24px;
 }
@@ -55,6 +55,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: var(--transition);
+}
+
+.gibson__header-cta-circle,
+.gibson__header-cta-circle * {
+    cursor: pointer;
+}
+
+.gibson__header-cta-circle:hover {
+    background: var(--color-white);
+}
+
+.gibson__header-cta-circle:hover > p {
+    color: var(--color-bg);
 }
 
 .divider__line.two {

@@ -3,7 +3,11 @@ import './shop.css'
 
 const Shop = () => {
   return (
-    <div>Shop</div>
+    <div className='gibson__shop'>
+      <div className="gibson__shop-gallery">
+        
+      </div>
+    </div>
   )
 }
 
