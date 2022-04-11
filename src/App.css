@@ -15,6 +15,10 @@ body {
     background: var(--color-bg);
 }
 
+a {
+    color: var(--color-white);
+}
+
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
