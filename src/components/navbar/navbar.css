@@ -57,8 +57,9 @@
   }
 
   .open__menu-container,
-  .gibson__open-menu {
-    z-index: 100;
+  .gibson__open-menu,
+  .gibson__menu-icon {
+    z-index: 10;
   }
   .gibson__open-menu a {
     color: var(--color-white);
