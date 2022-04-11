@@ -45,7 +45,10 @@
   }
 
   .open__menu-container{
-    background: #1b1d22;
+    background: rgba( 27, 29, 34, 0.8 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +71,7 @@
   }
   
   .gibson__open-menu a:hover {
-    color: var(--color-bg);
+    color: var(--color-bg2);
   }
 
   .scale-in-tl {
