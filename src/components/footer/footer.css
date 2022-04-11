@@ -1,6 +1,5 @@
 .gibson__footer {
-    padding: 4rem 0;
-    margin: 40px 0;
+    padding-bottom: 40px;
 }
 
 .gibson__footer-container {
@@ -17,7 +16,7 @@
     width: 100%;
     height: 1px;
     background: var(--color-white);
-    margin: 40px 0;
+    margin-bottom: 40px;
 }
 
 h4 {
